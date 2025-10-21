@@ -1,7 +1,7 @@
 def calculadora():
 
     valor_um = int(input("Informe o primeiro valor: "))
-    operador = input("Informe a operação: (+,-<*,/)")
+    operador = input("Informe a operação: (+ , - , * , /: )")
     valor_dois = int(input("Informe o segundo valor: "))
 
     if operador == "+":
